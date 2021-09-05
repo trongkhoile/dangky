@@ -1,0 +1,100 @@
+/*thanhmenu*/
+.thanhmenu{
+    background-color: white;
+    position: fixed;
+    height: 70px;
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.khung{
+    width: 450px;
+    font-family: system-ui;
+    display: flex;
+    justify-content: space-between;
+    font-size:20px;
+}
+.tennhahang{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+.anh1{
+    width: 90px;
+}
+.khung1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*.*/
+body{
+    background-image: url("https://d2och25llwfr54.cloudfront.net/wp-content/uploads/2020/02/32.jpg");
+   background-repeat: no-repeat;
+   background-size: 1500px 1000px;
+   display: flex;
+   justify-content: center;
+   
+
+
+}
+.khung3{
+    margin-top: 100px;
+    background-color: white;
+    width: 600px;
+    height:600px;
+   
+}
+.td{
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+    
+}
+.thongtincn{
+    font-size: 20px;
+    width: 100%;
+    background-color: lightgray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.input , .input1, .input2 , .input3{
+    height: 50px;
+    width: 250px;
+}
+.khung6{
+    display: flex;
+    flex-direction: column;
+}
+
+.khung5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.khung7{
+   margin-top: 50px;
+}
+.nutdangky{
+    
+    color: white;
+    width: 100%;
+    border-style: none;
+    height: 50px;
+    margin-top: 90px;
+    background-color: lightskyblue;
+}
+.tenoday{
+    position: absolute;
+    margin-left: 20px;
+    color: red;
+}
